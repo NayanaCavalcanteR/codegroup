@@ -1,0 +1,24 @@
+unit uPessoa;
+
+interface
+
+uses uModelPessoa;
+
+type
+  TPessoa = class
+  public
+    function GetListaPessoas: string;
+  end;
+
+implementation
+
+{ TPessoa }
+
+uses dmConexao;
+
+function TPessoa.GetListaPessoas: string;
+begin
+  Result := dtmConexao.GetListaPessoas;
+end;
+
+end.

@@ -1,0 +1,30 @@
+unit uEndereco;
+
+interface
+
+uses uModelEndereco;
+
+type
+  TEndereco = class
+  public
+    function GetListaEnderecos: string;
+    function PostEndereco(DadosEndereco: TModelEndereco): string;
+  end;
+
+implementation
+
+{ TEndereco }
+
+uses dmConexao;
+
+function TEndereco.GetListaEnderecos: string;
+begin
+  Result := dtmConexao.GetListaEnderecos;
+end;
+
+function TEndereco.PostEndereco(DadosEndereco: TModelEndereco): string;
+begin
+  Result := dtmConexao.PostEndereco(DadosEndereco);
+end;
+
+end.

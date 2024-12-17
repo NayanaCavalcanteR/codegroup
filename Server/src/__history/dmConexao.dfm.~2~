@@ -1,0 +1,4 @@
+object dtmConexao: TdtmConexao
+  Height = 255
+  Width = 367
+end

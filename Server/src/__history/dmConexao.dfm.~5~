@@ -1,0 +1,31 @@
+object dtmConexao: TdtmConexao
+  Height = 255
+  Width = 548
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'Database=Teste'
+      'User_Name=postgres'
+      'Password=nay@1003'
+      'DriverID=PG')
+    ConnectedStoredUsage = []
+    LoginPrompt = False
+    Left = 48
+    Top = 32
+  end
+  object FDGUIxWaitCursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 160
+    Top = 32
+  end
+  object FDPhysPgDriverLink: TFDPhysPgDriverLink
+    VendorLib = 'C:\TesteDelphi\DLL\dll32\libpq.dll'
+    Left = 280
+    Top = 32
+  end
+  object FDQuery: TFDQuery
+    ActiveStoredUsage = []
+    Connection = FDConnection
+    Left = 48
+    Top = 104
+  end
+end

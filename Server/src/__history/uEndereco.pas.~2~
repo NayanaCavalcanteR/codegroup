@@ -1,0 +1,22 @@
+unit uEndereco;
+
+interface
+
+type
+  TEndereco = class
+  public
+    function GetListaEnderecos: string;
+  end;
+
+implementation
+
+{ TEndereco }
+
+uses dmConexao;
+
+function TEndereco.GetListaEnderecos: string;
+begin
+  Result := dtmConexao.GetListaEnderecos;
+end;
+
+end.

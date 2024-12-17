@@ -1,0 +1,30 @@
+unit uPessoa;
+
+interface
+
+uses uModelPessoa;
+
+type
+  TPessoa = class
+  public
+    function GetListaPessoas: string;
+    function PostPessoa(DadosPessoa: TModelPessoa): string;
+  end;
+
+implementation
+
+{ TPessoa }
+
+uses dmConexao;
+
+function TPessoa.GetListaPessoas: string;
+begin
+  Result := dtmConexao.GetListaPessoas;
+end;
+
+function TPessoa.PostPessoa(DadosPessoa: TModelPessoa): string;
+begin
+  Result := dtmConexao.PostPessoa(DadosPessoa);
+end;
+
+end.

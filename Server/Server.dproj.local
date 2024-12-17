@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/12/07 23:53:02.000.645,=F:\Projetos\CodeGroup\Projeto\codegroup\Server\Unit1.pas</Transaction>
+    <Transaction>2024/12/07 23:53:25.000.213,F:\Projetos\CodeGroup\Projeto\codegroup\Server\Unit1.dfm=F:\Projetos\CodeGroup\Projeto\codegroup\Server\src\dmConexao.dfm</Transaction>
+    <Transaction>2024/12/07 23:53:25.000.213,F:\Projetos\CodeGroup\Projeto\codegroup\Server\Unit1.pas=F:\Projetos\CodeGroup\Projeto\codegroup\Server\src\dmConexao.pas</Transaction>
+    <Transaction>2024/12/08 00:18:36.000.139,=C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas</Transaction>
+    <Transaction>2024/12/08 00:18:50.000.998,C:\TesteDelphi\NayanaRodrigues\Server\src\uModelPessoa.pas=C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas</Transaction>
+    <Transaction>2024/12/08 14:33:14.000.056,=C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas</Transaction>
+    <Transaction>2024/12/08 14:33:25.000.202,C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas=C:\TesteDelphi\NayanaRodrigues\Server\src\uModelEndereco.pas</Transaction>
+    <Transaction>2024/12/09 11:48:15.000.894,=C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas</Transaction>
+    <Transaction>2024/12/09 11:48:28.000.142,C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas=C:\TesteDelphi\NayanaRodrigues\Server\src\uModelEnderecoIntegracao.pas</Transaction>
+    <Transaction>2024/12/09 11:52:33.000.399,=C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas</Transaction>
+    <Transaction>2024/12/09 11:52:44.000.850,C:\TesteDelphi\NayanaRodrigues\Server\Unit1.pas=C:\TesteDelphi\NayanaRodrigues\Server\src\uEnderecoIntegracao.pas</Transaction>
+  </Transactions>
+</BorlandProject>

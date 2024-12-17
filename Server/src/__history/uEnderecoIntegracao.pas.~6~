@@ -1,0 +1,39 @@
+unit uEnderecoIntegracao;
+
+interface
+
+uses uModelEnderecoIntegracao;
+
+type
+  TEnderecoIntegracao = class
+  public
+    function GetListaEnderecosIntegracao: string;
+    function PostEnderecoIntegracao(idEndereco: integer; DadosEnderInt: TModelEnderecoIntegracao): string;
+    function PutEnderecoIntegracao(idEndereco: integer; DadosEnderInt: TModelEnderecoIntegracao): string;
+  end;
+
+
+implementation
+
+{ TEnderecoIntegracao }
+
+uses dmConexao;
+
+function TEnderecoIntegracao.GetListaEnderecosIntegracao: string;
+begin
+  Result := dtmConexao.GetListaEnderecosIntegracao;
+end;
+
+function TEnderecoIntegracao.PostEnderecoIntegracao(idEndereco: integer;
+  DadosEnderInt: TModelEnderecoIntegracao): string;
+begin
+  Result := dtmConexao.PostEnderecoIntegracao(idEndereco, DadosEnderInt);
+end;
+
+function TEnderecoIntegracao.PutEnderecoIntegracao(idEndereco: integer;
+  DadosEnderInt: TModelEnderecoIntegracao): string;
+begin
+  Result := dtmConexao.PutEnderecoIntegracao(idEndereco, DadosEnderInt);
+end;
+
+end.

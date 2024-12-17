@@ -1,0 +1,29 @@
+unit uModelEnderecoIntegracao;
+
+interface
+
+type
+  TModelEnderecoIntegracao = class
+  private
+    FIdendereco   : integer;
+    FDscep        : string;
+    FIdpessoa     : integer;
+    FNmcidade     : string;
+    FNmlogradouro : string;
+    FNmbairro     : string;
+    FDsuf         : string;
+    FDscomplemento: string;
+  public
+    property idendereco   : integer read FIdendereco    write FIdendereco;
+    property idpessoa     : integer read FIdpessoa      write FIdpessoa;
+    property dsuf         : string  read FDsuf          write FDsuf;
+    property nmcidade     : string  read FNmcidade      write FNmcidade;
+    property nmbairro     : string  read FNmbairro      write FNmbairro;
+    property nmlogradouro : string  read FNmlogradouro  write FNmlogradouro;
+    property dscomplemento: string  read FDscomplemento write FDscomplemento;
+  end;
+
+
+implementation
+
+end.
